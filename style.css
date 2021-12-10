@@ -8,7 +8,7 @@
     box-sizing: border-box;
     background-color: #fff;
     width: 1%;
-    height: auto;
+    height: 100px;
     display: flex;
     align-items: center;
     width: 160%;
@@ -17,10 +17,13 @@
     cursor: pointer;
     margin: 30x 0;
     margin-top: 50px;
+    width: 30%;
 }
 nav {
     flex: 1;
     text-align: right;
+    margin-top: 150px;
+    margin-right: 2px;
 }
 .nav_links ul li {
     list-style: grid;
@@ -448,9 +451,16 @@ nav {
 }
 @media only screen and (min-width: 768px) {
     .navbar {
-        display: block;
+        box-sizing: border-box;
+        background-color: #fff;
+        width: 1%;
+        height: 100px;
+        display: flex;
+        align-items: center;
         width: 100%;
-        padding-bottom: 30px;
+    }
+    .logo {
+        width: 40%;
     }
     .header {
         width: 100%;
@@ -837,11 +847,15 @@ nav {
 }
 @media only screen and (min-width: 1000px) {
     .navbar {
-        display: block;
+        box-sizing: border-box;
+        background-color: #fff;
+        height: 150px;
+        display: flex;
+        align-items: center;
         width: 100%;
-        padding-bottom: -3px;
-        justify-content: space-evenly;
-        margin-left: -5px;
+    }
+    .logo {
+        width: 50%;
     }
     .header {
         width: 100%;
