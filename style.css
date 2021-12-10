@@ -124,7 +124,7 @@ nav {
 .moneybox {
     width: 100%;
     height: 350px;
-    margin-top: 200px;
+    margin-top: 180px;
 }
 .money {
      width: 160%;
@@ -158,7 +158,7 @@ nav {
 .nft {
     width: 160%;
     height: 350px;
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .market {
      width: 100%;
@@ -192,7 +192,7 @@ nav {
 .shopbox {
     width: 100%;
     height: auto;
-    margin-top: 260px;
+    margin-top: 200px;
 }
 .shop {
     width: 160%;
@@ -226,7 +226,7 @@ nav {
 .tokenomics {
     width: 160%;
     height: auto;
-    margin-top: 300px;
+    margin-top: 50px;
 }
 .token {
     width: 100%;
@@ -257,7 +257,7 @@ nav {
 }
 .wrapper {
     width: 170%;
-    background-color: rgba(151, 224, 163, 0.4);
+    background-color: rgba(151, 224, 163, 0.1);
     border-radius: 80px;
     color: #000066;
     justify-content: space-evenly;
@@ -404,6 +404,17 @@ nav {
     margin-bottom: auto;
     padding: 4px;
     row-gap: 34px;
+}
+.airdrop {
+    margin-top: 300px;
+    color: #fff;
+    margin-left: 60%;
+    background-color: green;
+    width: 150px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 10px;
 }
 .career {
     width: 100%;
@@ -604,7 +615,7 @@ nav {
 .tokenomics {
     width: 100%;
     height: auto;
-    margin-top: 350px;
+    margin-top: 50px;
 }
 .token {
     width: 100%;
@@ -634,8 +645,8 @@ nav {
     width: 30%;
 }
 .wrapper {
-    width: 95%;
-    background-color: rgba(151, 224, 163, 0.4);
+    width: 100%;
+    background-color: rgba(151, 224, 163, 0.1);
     border-radius: 80px;
     color: #000066;
     justify-content: space-evenly;
@@ -786,6 +797,17 @@ nav {
     padding: 4px;
     row-gap: 34px;
 }
+.airdrop {
+    margin-top: 350px;
+    color: #fff;
+    margin-left: 40%;
+    background-color: green;
+    width: 180px;
+    height: 30px;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 10px;
+}
 .career {
     width: 100%;
     height: auto;
@@ -818,6 +840,8 @@ nav {
         display: block;
         width: 100%;
         padding-bottom: -3px;
+        justify-content: space-evenly;
+        margin-left: -5px;
     }
     .header {
         width: 100%;
@@ -890,7 +914,7 @@ nav {
     .moneybox {
         width: 100%;
         height: 300px;
-        margin-top: 10px;
+        margin-top: 5px;
         word-wrap: break-word;
     }
     .moneypic {
@@ -1011,7 +1035,7 @@ nav {
 .tokenomics {
     width: 100%;
     height: auto;
-    margin-top: 110px;
+    margin-top: 80px;
 }
 .token {
     width: 100%;
@@ -1042,7 +1066,7 @@ nav {
 }
 .wrapper {
     width: 95%;
-    background-color: rgba(151, 224, 163, 0.4);
+    background-color: rgba(151, 224, 163, 0.1);
     border-radius: 80px;
     color: #000066;
     justify-content: space-evenly;
@@ -1071,7 +1095,6 @@ nav {
     padding: 10px;
     color: lightcyan;
     line-height: 20px;
-    list-style-type: square;
 }
 .phase2 {
     height: auto;
@@ -1093,7 +1116,6 @@ nav {
     padding: 10px;
     color: lightcyan;
     line-height: 20px;
-    list-style-type: square;
 }  
 .phase3 {
     height: auto;
@@ -1130,29 +1152,6 @@ nav {
     text-align: inherit;
 }
 .phase4 li{
-    font-size: 15px;
-    font-style: normal;
-    font-family: "Montserrat", sans-serif;
-    margin-right: auto;
-    text-align: left;
-    padding: 10px;
-    color: lightcyan;
-    line-height: 20px;
-    list-style-type: square;
-}
-.phase5 {
-    width: 70%;
-    height: auto;
-    background-color: lightseagreen;
-    border-radius: 40px;
-    color: white;
-    align-items: center;
-    justify-content: flex-end;
-    text-align: center;
-    margin-left: 1%;
-    text-align: inherit;
-}
-.phase5 li{
     font-size: 15px;
     font-style: normal;
     font-family: "Montserrat", sans-serif;
@@ -1207,10 +1206,24 @@ nav {
     margin-bottom: auto;
     border-radius: none;
 }
+.airdrop {
+    margin-top: 100px;
+    color: #fff;
+    margin-left: 41%;
+    background-color: green;
+    width: 250px;
+    height: auto;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
 .vinecommunity {
     list-style: none;
     line-height: 30px;
     padding-left: 30px;
+    color: white;
+    text-decoration-line: none;
+    text-decoration-color: white;
 }
 .vinecommunity h2 {
     color: orange;
@@ -1218,6 +1231,7 @@ nav {
     line-height: 40px;
 }
 .vinecommunity ul li {
+    color: white;
     list-style: none;
 }
 .copyright {
