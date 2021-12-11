@@ -1210,6 +1210,9 @@ nav {
     padding: 4px;
     row-gap: 34px;
 }
+.vinecommuinty a:link{
+    color: #fff;
+}
 .career {
     width: 100%;
     height: auto;
